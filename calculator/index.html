@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <!-- icon for title -->
+    <link rel="icon" href="../calculator/asset/img/calc-icon.jpg">
+    <!-- link style sheet -->
+    <link rel="stylesheet" href="../calculator/asset/style.css">
+    <!-- fontawsome link for logo and icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- link AOS animation javascript -->
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="calcualtor" id="calculator">
+                <input type="text" placeholder="0" id="get_value">
+                <button onclick="display('%')" class="greennum" id="percentage">&percnt;</button>
+                <button onclick="display('CE')" class="greennum">CE</button>
+                <button onclick="CLR()" class="clearnum">CLR</button>
+                <button onclick="DEL()"><i class="fa-solid fa-delete-left"></i></button>
+                <button onclick="display('7')">7</button>
+                <button onclick="display('8')">8</button>
+                <button onclick="display('9')">9</button>
+                <button onclick="display('*')" class="greennum" id="greennum">*</button>
+                <button onclick="display('4')">4</button>
+                <button onclick="display('5')">5</button>
+                <button onclick="display('6')">6</button>
+                <button onclick="display('-')" class="greennum">&minus;</button>
+                <button onclick="display('1')">1</button>
+                <button onclick="display('2')">2</button>
+                <button onclick="display('3')">3</button>
+                <button onclick="display('+')" class="greennum">&plus;</button>
+                <button onclick="display('0')">0</button>
+                <button onclick="display('.')">.</button>
+                <button onclick="calculator()" class="cal" id="cal">&equals;</button>
+            </div>
+        </header>
+    </div>
+    <!-- Link js file  -->
+    <script src="../calculator/asset/script/main.js"></script>
+</body>
+
+</html>
